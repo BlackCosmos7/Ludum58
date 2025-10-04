@@ -10,6 +10,7 @@ public class LevelManager : MonoBehaviour
 
     [Header("UI элементы")]
     public Text timerText;
+    public Text attemptsText;
     public GameObject winPanel;
     public GameObject gameOverPanel;
 
@@ -18,11 +19,24 @@ public class LevelManager : MonoBehaviour
     private float currentTime;
     private bool isGameOver = false;
 
+    [Header("Ошибки")]
+    public int maxAttempts = 3;
+    private int currentAttempts;
+
     void Start()
     {
         currentTime = levelTime;
+        currentAttempts = maxAttempts;
+
+        if (attemptsText != null)
+            attemptsText.text = "Попытки: " + currentAttempts;
+
+        if (timerText != null)
+            timerText.text = "Время: " + Mathf.Ceil(currentTime);
+
         winPanel.SetActive(false);
         gameOverPanel.SetActive(false);
+
         Time.timeScale = 1f;
     }
 
@@ -31,7 +45,9 @@ public class LevelManager : MonoBehaviour
         if (isGameOver) return;
 
         currentTime -= Time.deltaTime;
-        timerText.text = "Время: " + Mathf.Ceil(currentTime).ToString();
+
+        if (timerText != null)
+            timerText.text = "Время: " + Mathf.Ceil(currentTime).ToString();
 
         if (currentTime <= 0)
         {
@@ -46,6 +62,21 @@ public class LevelManager : MonoBehaviour
         if (foundDifferences >= totalDifferences)
         {
             Win();
+        }
+    }
+
+    public void MissClick()
+    {
+        if (isGameOver) return;
+
+        currentAttempts--;
+
+        if (attemptsText != null)
+            attemptsText.text = "Попытки: " + currentAttempts;
+
+        if (currentAttempts <= 0)
+        {
+            GameOver();
         }
     }
 

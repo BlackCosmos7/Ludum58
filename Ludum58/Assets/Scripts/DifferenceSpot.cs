@@ -14,8 +14,8 @@ public class DifferenceSpot : MonoBehaviour
     private void OnMouseDown()
     {
         if (isFound) return;
-
         Instantiate(markPrefab, transform.position, Quaternion.identity, transform.parent);
+
         isFound = true;
         levelManager.FoundDifference();
     }
