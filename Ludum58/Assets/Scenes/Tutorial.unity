@@ -360,15 +360,15 @@ RectTransform:
   m_GameObject: {fileID: 395349726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.88720703, y: 1, z: 1}
+  m_LocalScale: {x: 0.7538687, y: 0.84971, z: 0.84971}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1589731009}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 312.54388, y: 43.28003}
-  m_SizeDelta: {x: 682.949, y: 519.0813}
+  m_AnchoredPosition: {x: 294, y: 35}
+  m_SizeDelta: {x: 726.9319, y: 579.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &395349728
 MonoBehaviour:
@@ -397,13 +397,17 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 50
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: sdgssdilfgbdlhsaghfkidgslkhfkjsahflkdhlkashflhasklhaklasjhflahsdflhalkshflahlfh
+  m_Text: "My grandmother was a lover of history.\r\nShe kept a journal where she
+    wrote down all the most interesting facts about antiquary items.\r\nI didn\u2019t
+    inherit her talent nor her passion.\r\nBut a museum was opening in my town, hiring
+    workers, and I really needed some job.\r\nI managed to get hired there, now I
+    only hope I don\u2019t get fired\u2026\r"
 --- !u!222 &395349729
 CanvasRenderer:
   m_ObjectHideFlags: 0
