@@ -11,8 +11,11 @@ public class LevelManager : MonoBehaviour
     [Header("UI элементы")]
     public Text timerText;
     public Text attemptsText;
-    public GameObject winPanel;
     public GameObject gameOverPanel;
+
+    [Header("Кнопка Disagree")]
+    public Button disagreeButton;
+    public GameObject disagreePanel;
 
     [Header("Таймер")]
     public float levelTime = 90f;
@@ -29,14 +32,21 @@ public class LevelManager : MonoBehaviour
         currentAttempts = maxAttempts;
 
         if (attemptsText != null)
-            attemptsText.text = "Попытки: " + currentAttempts;
+            attemptsText.text = "Attempts: " + currentAttempts;
 
         if (timerText != null)
-            timerText.text = "Время: " + Mathf.Ceil(currentTime);
+            timerText.text = "Time: " + Mathf.Ceil(currentTime);
 
-        winPanel.SetActive(false);
+        if (disagreeButton != null)
+        {
+            disagreeButton.interactable = false;
+            disagreeButton.onClick.AddListener(OnDisagreeClicked);
+        }
+
+        if (disagreePanel != null)
+            disagreePanel.SetActive(false);
+
         gameOverPanel.SetActive(false);
-
         Time.timeScale = 1f;
     }
 
@@ -47,7 +57,7 @@ public class LevelManager : MonoBehaviour
         currentTime -= Time.deltaTime;
 
         if (timerText != null)
-            timerText.text = "Время: " + Mathf.Ceil(currentTime).ToString();
+            timerText.text = "Time: " + Mathf.Ceil(currentTime).ToString();
 
         if (currentTime <= 0)
         {
@@ -58,11 +68,8 @@ public class LevelManager : MonoBehaviour
     public void FoundDifference()
     {
         foundDifferences++;
-
-        if (foundDifferences >= totalDifferences)
-        {
-            Win();
-        }
+        if (disagreeButton != null && foundDifferences > 0)
+            disagreeButton.interactable = true;
     }
 
     public void MissClick()
@@ -72,23 +79,12 @@ public class LevelManager : MonoBehaviour
         currentAttempts--;
 
         if (attemptsText != null)
-            attemptsText.text = "Попытки: " + currentAttempts;
+            attemptsText.text = "Attempts: " + currentAttempts;
 
         if (currentAttempts <= 0)
         {
             GameOver();
         }
-    }
-
-    void Win()
-    {
-        winPanel.SetActive(true);
-        isGameOver = true;
-        Time.timeScale = 0f;
-
-        int currentScene = SceneManager.GetActiveScene().buildIndex;
-        PlayerPrefs.SetInt("LastLevel", currentScene + 1);
-        PlayerPrefs.Save();
     }
 
     void GameOver()
@@ -98,17 +94,16 @@ public class LevelManager : MonoBehaviour
         Time.timeScale = 0f;
     }
 
+    private void OnDisagreeClicked()
+    {
+        if (disagreePanel != null)
+            disagreePanel.SetActive(true);
+    }
+
     public void RestartLevel()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-
-    public void NextLevel()
-    {
-        Time.timeScale = 1f;
-        int nextLevel = PlayerPrefs.GetInt("LastLevel", 2);
-        SceneManager.LoadScene(nextLevel);
     }
 
     public void BackToMenu()

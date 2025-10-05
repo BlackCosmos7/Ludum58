@@ -218,6 +218,7 @@ GameObject:
   - component: {fileID: 151807604}
   - component: {fileID: 151807606}
   - component: {fileID: 151807605}
+  - component: {fileID: 151807607}
   m_Layer: 5
   m_Name: WinPanel
   m_TagString: Untagged
@@ -258,7 +259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.63318795, g: 0.8773585, b: 0.6769602, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -283,6 +284,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151807603}
   m_CullTransparentMesh: 1
+--- !u!114 &151807607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151807603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a749525ee979314a996474339042d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &281766726
 GameObject:
   m_ObjectHideFlags: 0
@@ -1322,8 +1335,9 @@ MonoBehaviour:
   totalDifferences: 3
   timerText: {fileID: 582366794}
   attemptsText: {fileID: 1545082241}
-  winPanel: {fileID: 151807603}
   gameOverPanel: {fileID: 877296706}
+  disagreeButton: {fileID: 1153047400}
+  disagreePanel: {fileID: 877296706}
   levelTime: 10
   maxAttempts: 3
 --- !u!1 &726706383
@@ -1720,7 +1734,7 @@ RectTransform:
   m_GameObject: {fileID: 877296706}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -0.486929, y: 0.58743, z: 1}
+  m_LocalScale: {x: 0.48099822, y: 0.58743, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1852029135}
@@ -1745,7 +1759,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.495283, b: 0.495283, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2001,7 +2015,7 @@ GameObject:
   - component: {fileID: 1013223141}
   - component: {fileID: 1013223140}
   m_Layer: 0
-  m_Name: SquareForDif
+  m_Name: SpriteAnticvariat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2914,9 +2928,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 668307746}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: NextLevel
+      - m_Target: {fileID: 151807607}
+        m_TargetAssemblyTypeName: NextLvl, Assembly-CSharp
+        m_MethodName: LoadNextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
