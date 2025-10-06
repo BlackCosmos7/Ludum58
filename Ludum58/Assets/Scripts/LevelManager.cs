@@ -35,7 +35,7 @@ public class LevelManager : MonoBehaviour
             attemptsText.text = "Attempts: " + currentAttempts;
 
         if (timerText != null)
-            timerText.text = "Time: " + Mathf.Ceil(currentTime);
+            timerText.text = " " + Mathf.Ceil(currentTime);
 
         if (disagreeButton != null)
         {
@@ -57,7 +57,7 @@ public class LevelManager : MonoBehaviour
         currentTime -= Time.deltaTime;
 
         if (timerText != null)
-            timerText.text = "Time: " + Mathf.Ceil(currentTime).ToString();
+            timerText.text = " " + Mathf.Ceil(currentTime).ToString();
 
         if (currentTime <= 0)
         {
