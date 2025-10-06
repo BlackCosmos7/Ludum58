@@ -7,7 +7,7 @@ public class Menu : MonoBehaviour
 {
     public void PlayG()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Tutorial");
     }
 
     public void ExitG()
