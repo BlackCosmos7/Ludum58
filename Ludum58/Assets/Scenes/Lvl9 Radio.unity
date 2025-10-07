@@ -1641,8 +1641,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 531.93, y: -77.73746}
-  m_SizeDelta: {x: 544.16, y: 408.553}
+  m_AnchoredPosition: {x: 526.64984, y: -77.73746}
+  m_SizeDelta: {x: 533.6, y: 408.553}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &726706385
 MonoBehaviour:
@@ -1665,9 +1665,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: fe19698ff2631db4fafa962b243f1085, type: 3}
-    m_FontSize: 40
-    m_FontStyle: 1
+    m_Font: {fileID: 12800000, guid: 85944c7851853474bb1467a70ee7fea5, type: 3}
+    m_FontSize: 35
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 70
@@ -1676,7 +1676,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 0.7
   m_Text: In those times a lot of household items were made by small subsidiaries
     under the name of the parent company. Even though now the production is recovering,
     it cannot meet the demand, and to this day the same appliances and furniture
@@ -4241,7 +4241,7 @@ RectTransform:
   m_GameObject: {fileID: 1920153768}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 100.39317, y: 99.62765, z: 0.6578921}
+  m_LocalScale: {x: 100.39317, y: 103.363686, z: 0.6578921}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 665062866}

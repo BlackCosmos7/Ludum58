@@ -1679,8 +1679,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 616.23, y: -74.31589}
-  m_SizeDelta: {x: 395.08, y: 359.2418}
+  m_AnchoredPosition: {x: 614.64233, y: -74.31589}
+  m_SizeDelta: {x: 374.3647, y: 359.2418}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &726706385
 MonoBehaviour:
@@ -1703,18 +1703,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: fe19698ff2631db4fafa962b243f1085, type: 3}
-    m_FontSize: 40
-    m_FontStyle: 1
+    m_Font: {fileID: 12800000, guid: 85944c7851853474bb1467a70ee7fea5, type: 3}
+    m_FontSize: 35
+    m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 3
     m_MaxSize: 70
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 0.7
   m_Text: The vatrushkas are depleating steadily...
 --- !u!222 &726706386
 CanvasRenderer:
@@ -4276,15 +4276,15 @@ RectTransform:
   m_GameObject: {fileID: 1920153768}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 100.39317, y: 99.62765, z: 0.6578921}
+  m_LocalScale: {x: 100.39317, y: 103.363686, z: 0.6578921}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 665062866}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: -2}
-  m_SizeDelta: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -2, y: 4.5303955}
+  m_SizeDelta: {x: 1, y: 1.1311}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1920153770
 SpriteRenderer:

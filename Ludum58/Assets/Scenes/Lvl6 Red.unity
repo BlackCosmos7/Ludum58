@@ -1565,8 +1565,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -326.95123, y: -137.64835}
-  m_SizeDelta: {x: 341.92236, y: 500.3371}
+  m_AnchoredPosition: {x: -331.0943, y: -87.931946}
+  m_SizeDelta: {x: 350.2085, y: 400.9042}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &726706385
 MonoBehaviour:
@@ -1589,9 +1589,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: fe19698ff2631db4fafa962b243f1085, type: 3}
-    m_FontSize: 35
-    m_FontStyle: 1
+    m_Font: {fileID: 12800000, guid: 85944c7851853474bb1467a70ee7fea5, type: 3}
+    m_FontSize: 31
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 70
@@ -1600,7 +1600,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 0.7
   m_Text: The works of this author were widely known thanks to the use of bright
     colors, ornate patterns, and the attention to detail. Unfortunately, many of
     her later collections, characterized by their large size, were lost or damaged
