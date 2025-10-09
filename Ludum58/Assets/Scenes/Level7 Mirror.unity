@@ -267,7 +267,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 43185b22c5f20a145ac5af8b52780b03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7d79bd2b6bb75ab488d0d7d228936487, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -446,7 +446,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &291246735
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -488,7 +488,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 7f71f72eb3c7aed4cacfc209d352e6e1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3acf6505adc62a94d8230f45a6474f8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -508,8 +508,8 @@ Transform:
   m_GameObject: {fileID: 291246734}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 335, y: -63, z: 0}
-  m_LocalScale: {x: 0.73085535, y: 0.73085535, z: 0.73085535}
+  m_LocalPosition: {x: 345.5, y: 27, z: 0}
+  m_LocalScale: {x: 0.3725033, y: 0.38822648, z: 0.38822648}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 665062866}
@@ -790,8 +790,8 @@ Transform:
   m_GameObject: {fileID: 447558384}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.66, y: -3.09, z: 0}
-  m_LocalScale: {x: 0.4962519, y: 0.48842695, z: 27.982477}
+  m_LocalPosition: {x: -3.82, y: -3.03, z: 0}
+  m_LocalScale: {x: 0.52713376, y: 0.5188219, z: 29.724422}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1013223138}
@@ -837,7 +837,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 486e6270057a5bc428225cebc9359465, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3838fe3f5375b7845ad91c7971fe3b1c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1710,8 +1710,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -428.07, y: -616.0464}
-  m_SizeDelta: {x: 544.16, y: 378.7081}
+  m_AnchoredPosition: {x: -322.39404, y: -610}
+  m_SizeDelta: {x: 332.7982, y: 366.6154}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &726706385
 MonoBehaviour:
@@ -1735,7 +1735,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
-    m_FontSize: 35
+    m_FontSize: 33
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1745,10 +1745,10 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: They say he was a man of few words, inexpressive, with an oval face and
-    an aquiline nose, tall of height. He got a medal for his services at the front,
-    and wore it on his chest every day until he died.
+    m_LineSpacing: 0.7
+  m_Text: "A hand mirror made of pure gold. Before the Migration it could\u2019ve
+    been used in everyday life by common people, although many would prefer mirrors
+    made of lighter materials."
 --- !u!222 &726706386
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1769,7 +1769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad8117f6e8c3b5a42876faba585c5f7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: DedTxt
+  key: MirTxt
 --- !u!1 &799813378
 GameObject:
   m_ObjectHideFlags: 0
@@ -2348,7 +2348,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &915962563
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2365,7 +2365,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -95.6, y: 80.1}
+  m_AnchoredPosition: {x: -212, y: -177}
   m_SizeDelta: {x: 91.448, y: 85.138}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!58 &915962564
@@ -2433,7 +2433,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &977683338
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2635,7 +2635,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -3.8455455, y: -3.0526028}
+  m_Offset: {x: -3.6496608, y: -2.713407}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2646,7 +2646,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.2647758, y: 3.9550495}
+  m_Size: {x: 6.819943, y: 4.8754625}
   m_EdgeRadius: 0
 --- !u!95 &1013223142
 Animator:
@@ -2681,7 +2681,6 @@ GameObject:
   - component: {fileID: 1049212361}
   - component: {fileID: 1049212360}
   - component: {fileID: 1049212362}
-  - component: {fileID: 1049212363}
   m_Layer: 5
   m_Name: TextToOriginalName
   m_TagString: Untagged
@@ -2741,7 +2740,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: War Hero
+  m_Text: Golden mirror
 --- !u!222 &1049212361
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2762,20 +2761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad8117f6e8c3b5a42876faba585c5f7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: DecVaz
---- !u!114 &1049212363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1049212358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad8117f6e8c3b5a42876faba585c5f7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: Ded
+  key: Mir
 --- !u!1 &1141267686
 GameObject:
   m_ObjectHideFlags: 0
@@ -2811,8 +2797,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 123.63414, y: -47.178165}
-  m_SizeDelta: {x: 146.8828, y: 57.8377}
+  m_AnchoredPosition: {x: 123.63414, y: -46.4135}
+  m_SizeDelta: {x: 146.8828, y: 59.3671}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1141267688
 MonoBehaviour:
@@ -2952,7 +2938,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 877296706}
+      - m_Target: {fileID: 151807603}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -3561,8 +3547,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 124.76207, y: -42.304}
-  m_SizeDelta: {x: 158.1619, y: 57.5001}
+  m_AnchoredPosition: {x: 124.76207, y: -43.204697}
+  m_SizeDelta: {x: 158.1619, y: 55.6986}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1456995157
 MonoBehaviour:
@@ -3950,7 +3936,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1598429402
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3967,7 +3953,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -232, y: -24.6}
+  m_AnchoredPosition: {x: -229, y: -62.993}
   m_SizeDelta: {x: 79.9143, y: 74.0067}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!58 &1598429403
@@ -4235,7 +4221,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 151807603}
+      - m_Target: {fileID: 877296706}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -5054,7 +5040,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2057844586
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5071,7 +5057,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -141.6, y: -24.6}
+  m_AnchoredPosition: {x: -101.37, y: -137}
   m_SizeDelta: {x: 79.9143, y: 74.0067}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!58 &2057844587

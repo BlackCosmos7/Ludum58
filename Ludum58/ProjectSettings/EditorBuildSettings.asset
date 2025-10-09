@@ -21,26 +21,26 @@ EditorBuildSettings:
     path: Assets/Scenes/Level3 Watch.unity
     guid: 225db48dc1675fd4c9d1e00f493ecaa6
   - enabled: 1
-    path: Assets/Scenes/Lvl4 Hand.unity
-    guid: ac61109c914666f46a81a31aa2fe7313
+    path: Assets/Scenes/Level4 Hand.unity
+    guid: 30f5cd7c31f225d4ea9db9b9e18a3bcd
   - enabled: 1
-    path: Assets/Scenes/Lvl5 Kr.unity
-    guid: df8c22bfa2fde294581b31fb2ae3904e
+    path: Assets/Scenes/Level5 Kr.unity
+    guid: 5ba597b1b3f26704cb121f63eff9e886
   - enabled: 1
-    path: Assets/Scenes/Lvl6 Red.unity
-    guid: 666e630041e248348bd8e2678079160e
+    path: Assets/Scenes/Level6 Red.unity
+    guid: 2e7d2a62ac579ca439b94a2e6d927475
   - enabled: 1
-    path: Assets/Scenes/Lvl7 mirror.unity
-    guid: f5acd2e7f228a5b4a89bbfa2e4bf3aae
+    path: Assets/Scenes/Level7 Mirror.unity
+    guid: cc795bf371a177f48ab31cb46eaa75be
   - enabled: 1
-    path: Assets/Scenes/Lvl8 Statua.unity
-    guid: 444124ea83d081542b3acdf93d1f2e8b
+    path: Assets/Scenes/Level8 Statua.unity
+    guid: c2607a32b29cc86439f6c5c7add20e31
   - enabled: 1
-    path: Assets/Scenes/Lvl9 Radio.unity
-    guid: 745c5a5f95c89fe42a2afadae1800dbe
+    path: Assets/Scenes/Level9 Radio.unity
+    guid: d71a39191395d6f4eaee31557f3ad54e
   - enabled: 1
-    path: Assets/Scenes/Lvl10 Peoples.unity
-    guid: 296e66b94acd19d44be8ef9caa238401
+    path: Assets/Scenes/Level10 People.unity
+    guid: b5a1205220cb52d4ebb27e39add2d5b9
   - enabled: 1
     path: Assets/Scenes/Menu Last.unity
     guid: 53c53a6c329262345855cc6d4776607d

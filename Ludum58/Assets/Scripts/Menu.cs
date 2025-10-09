@@ -10,6 +10,11 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("Tutorial");
     }
 
+    public void RePlay()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
     public void ExitG()
     {
         Application.Quit();

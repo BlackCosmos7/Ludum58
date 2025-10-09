@@ -267,7 +267,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 43185b22c5f20a145ac5af8b52780b03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cdc0b183f5274e147880dd9268249291, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -790,8 +790,8 @@ Transform:
   m_GameObject: {fileID: 447558384}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.66, y: -3.09, z: 0}
-  m_LocalScale: {x: 0.4962519, y: 0.48842695, z: 27.982477}
+  m_LocalPosition: {x: -3.725257, y: -2.614669, z: 0}
+  m_LocalScale: {x: 0.6132262, y: 0.60355675, z: 34.580418}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1013223138}
@@ -837,7 +837,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 486e6270057a5bc428225cebc9359465, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a1d3cb2825f84dc4bb05561913a86daf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1710,8 +1710,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -428.07, y: -616.0464}
-  m_SizeDelta: {x: 544.16, y: 378.7081}
+  m_AnchoredPosition: {x: -428.07, y: -610}
+  m_SizeDelta: {x: 544.16, y: 366.6154}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &726706385
 MonoBehaviour:
@@ -1735,7 +1735,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
-    m_FontSize: 35
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1746,9 +1746,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: They say he was a man of few words, inexpressive, with an oval face and
-    an aquiline nose, tall of height. He got a medal for his services at the front,
-    and wore it on his chest every day until he died.
+  m_Text: In those times a lot of household items were made by small subsidiaries
+    under the name of the parent company. Even though now the production is recovering,
+    it cannot meet the demand, and to this day the same appliances and furniture
+    are used as were back then.
 --- !u!222 &726706386
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1769,7 +1770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad8117f6e8c3b5a42876faba585c5f7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: DedTxt
+  key: RadTxt
 --- !u!1 &799813378
 GameObject:
   m_ObjectHideFlags: 0
@@ -2348,7 +2349,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &915962563
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2365,7 +2366,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -95.6, y: 80.1}
+  m_AnchoredPosition: {x: -515, y: 80.1}
   m_SizeDelta: {x: 91.448, y: 85.138}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!58 &915962564
@@ -2415,7 +2416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa64c5ee8c4fa254d9d80fb6a1a3608e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  markPrefab: {fileID: 7197429802738700444, guid: 80305eebbeacc9b45a9336bbefcfdf55, type: 3}
+  markPrefab: {fileID: 0}
 --- !u!1 &977683337
 GameObject:
   m_ObjectHideFlags: 0
@@ -2433,7 +2434,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &977683338
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2450,7 +2451,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -423.5, y: -193.49998}
+  m_AnchoredPosition: {x: -478, y: -193.49998}
   m_SizeDelta: {x: 79.9143, y: 74.0067}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!58 &977683339
@@ -2635,7 +2636,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -3.8455455, y: -3.0526028}
+  m_Offset: {x: -3.704297, y: -2.6049752}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2646,7 +2647,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.2647758, y: 3.9550495}
+  m_Size: {x: 5.4491873, y: 4.4313135}
   m_EdgeRadius: 0
 --- !u!95 &1013223142
 Animator:
@@ -2681,7 +2682,6 @@ GameObject:
   - component: {fileID: 1049212361}
   - component: {fileID: 1049212360}
   - component: {fileID: 1049212362}
-  - component: {fileID: 1049212363}
   m_Layer: 5
   m_Name: TextToOriginalName
   m_TagString: Untagged
@@ -2705,8 +2705,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -460.18372, y: -367.7409}
-  m_SizeDelta: {x: 479.926, y: 117.9082}
+  m_AnchoredPosition: {x: -428.07, y: -367.7409}
+  m_SizeDelta: {x: 544.16, y: 117.9082}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1049212360
 MonoBehaviour:
@@ -2741,7 +2741,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: War Hero
+  m_Text: Old radio
 --- !u!222 &1049212361
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2762,20 +2762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad8117f6e8c3b5a42876faba585c5f7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: DecVaz
---- !u!114 &1049212363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1049212358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad8117f6e8c3b5a42876faba585c5f7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: Ded
+  key: Rad
 --- !u!1 &1141267686
 GameObject:
   m_ObjectHideFlags: 0
@@ -2811,8 +2798,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 123.63414, y: -47.178165}
-  m_SizeDelta: {x: 146.8828, y: 57.8377}
+  m_AnchoredPosition: {x: 123.63414, y: -41.4455}
+  m_SizeDelta: {x: 146.8828, y: 52.0112}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1141267688
 MonoBehaviour:
@@ -2849,7 +2836,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
-    m_FontSize: 38
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -3561,8 +3548,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 124.76207, y: -42.304}
-  m_SizeDelta: {x: 158.1619, y: 57.5001}
+  m_AnchoredPosition: {x: 124.76207, y: -43.4082}
+  m_SizeDelta: {x: 158.1619, y: 55.2916}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1456995157
 MonoBehaviour:
@@ -3599,7 +3586,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
-    m_FontSize: 38
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -3950,7 +3937,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1598429402
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3967,7 +3954,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -232, y: -24.6}
+  m_AnchoredPosition: {x: -523, y: -24.6}
   m_SizeDelta: {x: 79.9143, y: 74.0067}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!58 &1598429403
@@ -4017,7 +4004,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa64c5ee8c4fa254d9d80fb6a1a3608e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  markPrefab: {fileID: 7197429802738700444, guid: 80305eebbeacc9b45a9336bbefcfdf55, type: 3}
+  markPrefab: {fileID: 0}
 --- !u!1 &1731508592
 GameObject:
   m_ObjectHideFlags: 0
@@ -5054,7 +5041,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2057844586
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5071,7 +5058,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -141.6, y: -24.6}
+  m_AnchoredPosition: {x: -531, y: -24.6}
   m_SizeDelta: {x: 79.9143, y: 74.0067}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!58 &2057844587
@@ -5121,7 +5108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa64c5ee8c4fa254d9d80fb6a1a3608e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  markPrefab: {fileID: 7197429802738700444, guid: 80305eebbeacc9b45a9336bbefcfdf55, type: 3}
+  markPrefab: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
