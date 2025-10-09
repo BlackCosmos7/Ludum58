@@ -32,7 +32,7 @@ public class LevelManager : MonoBehaviour
         currentAttempts = maxAttempts;
 
         if (attemptsText != null)
-            attemptsText.text = "Attempts: " + currentAttempts;
+            attemptsText.text = " " + currentAttempts;
 
         if (timerText != null)
             timerText.text = " " + Mathf.Ceil(currentTime);
@@ -79,7 +79,7 @@ public class LevelManager : MonoBehaviour
         currentAttempts--;
 
         if (attemptsText != null)
-            attemptsText.text = "Attempts: " + currentAttempts;
+            attemptsText.text = " " + currentAttempts;
 
         if (currentAttempts <= 0)
         {
